@@ -1,0 +1,150 @@
+.carrocel__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--laranja);
+    background-color: var(--branco);
+    padding: 1rem 0;
+}
+
+.swiper {
+    margin: 1rem 0;
+}
+
+.swiper-wrapper img {
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.swiper-button-prev,
+ .swiper-button-next {
+    display: none;
+} 
+
+.card {
+    background: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    color: var(--laranja);
+    
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: .5em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
+    color: var(--preto);
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: .5em 0;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botao {
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em 2.2em;
+}
+
+.card__imagem {
+    margin-left: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .carrocel__titulo {
+        font-size: 26px;
+    }
+
+    .descricao__texto-livro {
+        font-size: 16px;
+    }
+
+    .swiper-pagination {
+        margin-bottom: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 50%;
+    } 
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .corrosel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin-bottom: 1em;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto-livro {
+        font-size: 18px;
+    }
+
+    .descricao {
+        margin-right: 3em;
+    }
+
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .botao:hover {
+        background-color: var(--branco);
+        color: var(--laranja);
+        border: solid 1px var(--laranja);
+    }
+  
+}
