@@ -28,7 +28,7 @@
     font-size: 14px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 728px) {
 
     .lista__topicos {
         width: 90%;
@@ -48,7 +48,7 @@
   
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
     .topicos {
         padding: 3em 20vw;
     }

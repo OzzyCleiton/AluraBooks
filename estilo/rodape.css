@@ -11,7 +11,7 @@ hr {
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 728px) {
 
     .lista__rodape {
         display: block;
@@ -48,7 +48,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
 
     .rodape {
         padding: 3rem 0;
